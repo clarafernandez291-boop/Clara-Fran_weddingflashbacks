@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clara y Fran · Flashbacks</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Georgia', serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #fff1e6 0%, #ffd9c0 45%, #ffb6a3 100%);
+    color: #6b4a45;
+    text-align: center;
+    padding: 24px;
+  }
+  .card {
+    background: rgba(255, 255, 255, 0.55);
+    backdrop-filter: blur(8px);
+    border-radius: 28px;
+    padding: 40px 28px;
+    max-width: 640px;
+    width: 100%;
+    box-shadow: 0 20px 50px rgba(200, 120, 100, 0.25);
+    border: 1px solid rgba(255,255,255,0.6);
+  }
+  h1 {
+    font-size: 28px;
+    color: #b5546a;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+  }
+  p {
+    font-size: 16px;
+    color: #8a6a63;
+    line-height: 1.6;
+    margin-bottom: 24px;
+  }
+  .video-wrap {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(200,120,100,0.3);
+  }
+  .video-wrap iframe {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    border: 0;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>Clara y Fran</h1>
+    <p>Un ratito para recordar<br>nuestros mejores momentos ✨</p>
+    <div class="video-wrap">
+      <iframe src="https://www.youtube.com/embed/q7JWMOOan_o"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+    </div>
+  </div>
+</body>
+</html>
