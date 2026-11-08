@@ -41,7 +41,9 @@
     border-radius: 18px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(210,160,140,0.22);
+    margin-bottom: 24px;
   }
+  .video-wrap:last-child { margin-bottom: 0; }
   .video-wrap iframe {
     position: absolute;
     top: 0; left: 0;
@@ -55,7 +57,16 @@
     <h1>Clara &amp; Fran</h1>
     <div class="video-wrap">
       <iframe src="https://www.youtube.com/embed/q7JWMOOan_o"
+              title="Clara & Fran · Flashbacks 1"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen></iframe>
+    </div>
+    <div class="video-wrap">
+      <iframe src="https://www.youtube.com/embed/i_HftNqqAjE"
+              title="Clara & Fran · Flashbacks 2"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen></iframe>
     </div>
   </div>
